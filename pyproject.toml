@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "horizon-model-hub"
+version = "0.1.0"
+description = "An open-source multi cloud model hub"
+authors = ["pzhao1799 <pzhao1799@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
